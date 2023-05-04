@@ -1,0 +1,48 @@
+<div class="titulo">Switch</div>
+
+<?php
+$categoria = 'Sedan';
+$preco = 0.0;
+$carro = '';
+
+if($categoria === 'luxo') {
+    $carro = 'Mercedes';
+    $preco = 250000;
+} elseif($categoria === 'SUV'){
+    $carro = 'Renegade';
+    $preco = 80000;
+} elseif($categoria === 'Sedan') {
+    $carro = 'Etios';
+    $preco = 55000;
+} else {
+    $carro = 'Mobi';
+    $preço = 33000;
+}
+
+$precoFormatado = number_format($preco, '2', ',', '.');
+echo "<p>Carro: $carro<br>Preço: R$ $precoFormatado</p>";
+
+$categoria = 'SUV';
+switch(strtolower($categoria)) {
+    case 'lux' : { 
+        $carro = 'Mercedes';
+        $preco = 2500000;
+        break;
+    }
+    case 'suv' :
+    case 'suv básico': 
+        $carro = 'Renegade';
+        $preco = 80000; 
+        break;
+    
+    case 'Sedan' : 
+        $carro = 'Etios';
+        $preco = 55000;
+        break;
+    default: 
+        $carro = 'Mobi';
+        $preço = 33000;
+}
+
+$precoFormatado = number_format($preco, '2', ',', '.');
+echo "<p>Carro: $carro<br>Preço: R$ $precoFormatado</p>";
