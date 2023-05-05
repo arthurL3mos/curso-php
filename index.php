@@ -17,6 +17,13 @@
             <div class="modulo verde-escuro">
                 <h3>6. Repeticoes</h3>
                     <ul>
+                        <li>xc
+                            <a href="exercicio.php?dir=repeticoes&file=desafio_for">
+                                Desafio For
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
                         <li>
                             <a href="exercicio.php?dir=repeticoes&file=for">
                                 Laço For
