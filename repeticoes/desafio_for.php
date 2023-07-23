@@ -17,7 +17,7 @@ for($cont = 1; $cont <= 5; $cont++){
     $impressao .= '#';
 }
 
-echo '<hr>';
+
 
 for(
     $impressao2 = '#';
