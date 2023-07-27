@@ -16,6 +16,75 @@
     <main class="principal">
         <div class="conteudo">
             <nav class="modulos">
+            <div class="modulo vermelho-escuro">
+                    <h3>7. Funções</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=map_filter">
+                                Map e Filter
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=retornando_funcao">
+                                Retornando Função
+                            </a>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=desafio_recursao">
+                                Desafio Recursão
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=fatorial_recursiva">
+                                Desafio Fatorial com Recursividade
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=recursividade">
+                                Recursividade
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=clousure_callable">
+                                Clousure e Callable
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=anonimas">
+                                Fuções Anônimas
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=usando_tipos">
+                                Usando Tipos
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=arg_padrao">
+                                Argumento Padrão
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=args_variaveis">
+                                Argumentos Variáveis
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=palindromo">
+                                Desafio Palindromo
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=escopo">
+                                Função & Escopo
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=args_retorno">
+                                Argumentos e Retornos
+                            </a>
+                        </li>
+                    </ul>
+                </div>
                 <div class="modulo verde-escuro">
                     <h3>6. Repeticoes</h3>
                     <ul>
@@ -69,71 +138,51 @@
                                 Array
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=array&file=mapa">
                                 Mapa
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=array&file=desafio_index">
                                 Desafio Index
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=array&file=desafio_meses">
                                 Desafio Meses
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=array&file=operacoes">
                                 Operações
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=array&file=sorteio">
                                 Sorteio
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=array&file=multi">
                                 Multidimensionais
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=array&file=constantes">
                                 Arrays Constantes
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=array&file=get01">
                                 $_GET
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=array&file=post">
                                 $_POST
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=array&file=comparacao">
                                 Comparação Arrays
