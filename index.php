@@ -1,3 +1,15 @@
+<?php
+session_start();
+
+if($_COOKIE['usuario']) {
+    $_SESSION['usuario'] = $_COOKIE['usuario'];
+}
+
+if(!$_SESSION['usuario']){
+    header('Location: login.php');
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,12 +25,139 @@
         <h1>Curso PHP</h1>
         <h2>Índice dos Exercícios</h2>
     </header>
+    <nav class="navegacao">
+        <span class="usuario">Usuário: <?= $_SESSION['usuario'] ?></span>
+        <a href="logout.php" class="vermelho">Sair</a>
+    </nav>
     <main class="principal">
         <div class="conteudo">
             <nav class="modulos">
+                <div class="modulo roxo">
+                    <h3>13. Algoritmo Bcrypt</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=bcrypt&file=bcrypt">
+                                Bcrypt
+                            </a>
+                        </li>
+                        <li>
+                            
+                        </li>
+                    </ul>
+                </div>
+                <div class="modulo azul">
+                    <h3>13. API</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=api&file=datas_01">
+                                Datas #01
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=api&file=datas_02">
+                                Datas #02
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modulo vermelho">
+                    <h3>12. Sessão</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=sessao&file=basico_sessao">
+                                Sessão
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=sessao&file=gerenciando_sessao">
+                                Gerenciando Sessão
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modulo verde">
+                    <h3>11. Trat. de Erros</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=tratamento_erro&file=gerenciador_erro">
+                                Error Handler
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=tratamento_erro&file=erros_personalizados">
+                                Erros Personalizados
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=tratamento_erro&file=try_catch">
+                                Try/Catch
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modulo laranja-escuro">
+                    <h3>10. Namespace</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=namespace&file=use_as">
+                                Use/As
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=namespace&file=sub_namespaces">
+                                Sub-Namespaces
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=namespace&file=namespace">
+                                Exemplo Básico
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modulo roxo-escuro">
+                    <h3>9. Includes</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=include_once">
+                                Include Once
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=require_return">
+                                Require vs Return
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=include_require">
+                                Include vs Require
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=include">
+                                Include
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=include_funcao">
+                                Include Função
+                            </a>
+                        </li>
+                    </ul>
+                </div>
                 <div class="modulo azul-escuro">
                     <h3>8. Paradgma O.O.</h3>
                     <ul>
+                        <li>
+                            <a href="exercicio.php?dir=classe_objetos&file=polimorfismo">
+                                Polimorfismo
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classe_objetos&file=magic_methods">
+                                Métodos Mágicos
+                            </a>
+                        </li>
                         <li>
                             <a href="exercicio.php?dir=classe_objetos&file=trait_02">
                                 Trait #02
